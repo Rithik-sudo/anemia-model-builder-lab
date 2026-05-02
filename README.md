@@ -1,20 +1,25 @@
-# Minor Project Notebooks
+# Anemia Model Builder Lab
 
-This folder contains the notebook workflow for palm-image based anemia detection, from baseline modeling to advanced fusion experiments.
+This repository contains an end-to-end experimentation workflow for anemia detection using palm images, including baseline deep learning training and advanced ensemble-style modeling.
 
-## Notebook Index
+## Repository Structure
 
 1. `notebooks/core/01_palm_anemia_detection_convnext.ipynb`  
-   Baseline end-to-end model training using palm images with TensorFlow and ConvNeXtTiny.
+   Main baseline pipeline using TensorFlow + ConvNeXtTiny on palm image data.
 
 2. `notebooks/advanced/02_multimodal_ensemble_anemia.ipynb`  
-   Extended pipeline with FastAI-based ensemble/fusion ideas, including tabular and multi-model prediction flows.
+   Advanced workflow with multi-model and tabular-fusion style experimentation using FastAI components.
 
 3. `notebooks/archive/03_experiments_fastai_timm.ipynb`  
-   Experimental Colab notebook used for earlier trials, setup checks, and comparative attempts.
+   Archived trial notebook with intermediate experiments and setup iterations.
 
-## Recommended Order
+## Quick Start
 
-1. Start with the `core` notebook for the main project story.
-2. Use the `advanced` notebook to present enhancements.
-3. Keep `archive` as supporting experimentation evidence.
+1. Open the `core` notebook to run the primary training and evaluation flow.
+2. Continue with the `advanced` notebook for improved/extended modeling ideas.
+3. Use `archive` only for reference and experiment history.
+
+## Notes
+
+- Notebooks were originally developed in Colab-style environments.
+- Update dataset and model paths before running in a new environment.
