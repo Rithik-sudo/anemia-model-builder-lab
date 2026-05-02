@@ -23,3 +23,10 @@ This repository contains an end-to-end experimentation workflow for anemia detec
 
 - Notebooks were originally developed in Colab-style environments.
 - Update dataset and model paths before running in a new environment.
+
+## Project Structure
+
+- Minor Project (this repo): model development and experimentation
+- Major Project: full application and deployment
+
+Major repo: https://github.com/Rithik-sudo/anemia-detection-fusion
